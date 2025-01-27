@@ -1,0 +1,75 @@
+body {
+    background-color: rgba(172, 172, 172, 0.495);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    font-size: 50px;
+    font-family: monospace;
+    
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    border: groove;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px;
+
+    img {
+        width: 250px;
+        height: 300px;
+    }
+
+    h3 {
+        font-size: 35px;
+        font-family: monospace;
+        
+    }
+
+    h2 {
+       width: 90%;
+       display: flex;
+       justify-content: center;
+       font-family: monospace;
+       font-weight: 1500;
+       font-size: 30px;
+    }
+
+    button {
+        background-color: #fd384f;
+        border: groove;
+        width: 30%;
+        height: 6vh;
+        cursor: pointer;
+        margin-bottom: 2%;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: monospace;
+        
+    }
+
+    .cart-btn {
+        background-color: white;
+    }
+
+    p {
+        width: 85%;
+        text-align: justify;
+        font-weight: 800;
+        margin-bottom: 5%;
+    }
+
+}
